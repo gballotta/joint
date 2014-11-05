@@ -15,3 +15,22 @@ Route::get('/', function()
 {
 	return View::make('landing');
 });
+
+
+/*
+------------------------------------------
+Routes del Backend
+------------------------------------------
+*/
+
+/*
+Controller corsi (CRUD corsi)
+*/
+
+Route::resource('courses', 'CourseController');
+
+Route::resource('teachers', 'TeacherController');
+
+Route::resource('coursetypes', 'CourseTypeController');
+
+Route::resource('coursedates', 'CourseDateController');

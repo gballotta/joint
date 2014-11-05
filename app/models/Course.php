@@ -8,4 +8,8 @@ class Course extends Eloquent {
 								 'minpartecipanti' => 'integer|min:1',
 								 'maxpartecipanti' => 'integer|min:1',
 								 'prezzo' => 'integer|min:0');
+	
+	public function coursedates() {
+		return $this->hasMany('Coursedate');
+	}
 }
