@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="#">
       	<img src="/img/jointhub_logo_header.png" alt="jointhub_logo" />
       </a>
     </div> <!-- / Navbar Header -->
@@ -20,9 +20,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Corsi <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#" class="bg-hover-color">La nostra sala corsi</a></li>
-            <li><a href="#" class="bg-hover-color">Programma corsi</a></li>
-            <li><a href="#" class="bg-hover-color">Calendario</a></li>
+            <li><a href="/salacorsi" class="bg-hover-color">La nostra sala corsi</a></li>
+            <li><a href="/programmacorsi" class="bg-hover-color">Programma corsi</a></li>
+            <li><a href="/calendario" class="bg-hover-color">Calendario</a></li>
             <li><a href="#" class="bg-hover-color">Proponi un corso</a></li>
           </ul>
         </li>

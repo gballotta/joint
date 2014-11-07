@@ -12,4 +12,12 @@ class Course extends Eloquent {
 	public function coursedates() {
 		return $this->hasMany('Coursedate');
 	}
+	
+	public function coursetype() {
+		return $this->belongsTo('Coursetype');
+	}
+	
+	public function teacher() {
+		return $this->belongsTo('Teacher');
+	}
 }

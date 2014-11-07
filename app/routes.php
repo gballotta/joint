@@ -16,6 +16,14 @@ Route::get('/', function()
 	return View::make('landing');
 });
 
+// Menu corsi
+
+// Programma dei corsi (elenco)
+Route::get('/programmacorsi', 'Corsi@index');
+Route::get('/salacorsi', 'Corsi@sala');
+Route::get('/corsi/{id}', 'Corsi@programmacorso');
+Route::get('/date/{id}', 'Corsi@datecorsi');
+Route::get('/calendario', 'Corsi@calendario');
 
 /*
 ------------------------------------------
