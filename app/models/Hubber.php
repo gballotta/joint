@@ -7,5 +7,9 @@ class Hubber extends Eloquent {
 								 'cap' => 'max:5',
 								 'provincia' => 'max:3',
 								 'telefono' => 'max:16',
-								 'email' => 'required|email');
+								 'email' => 'required|email',
+								 'datanascita' => 'required|date',
+								 'luogonascita' => 'required',
+								 'comune' => 'required',
+								 'codicefiscale' => 'required|min:16|max:16');
 }
