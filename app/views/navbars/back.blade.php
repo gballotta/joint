@@ -38,9 +38,9 @@
         <li><a href="#" class="bg-hover-color">Stampa 3D </a></li>
         <li><a href="#" class="bg-hover-color">Made in Jointhub </a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Il mio Jointhub <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Anagrafica <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#" class="bg-hover-color">Registrati</a></li>
+            <li><a href="/hubbers" class="bg-hover-color">Gestione Anagrafica</a></li>
             <li><a href="#" class="bg-hover-color">Accedi</a></li>
           </ul>
         </li>

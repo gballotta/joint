@@ -42,3 +42,7 @@ Route::resource('teachers', 'TeacherController');
 Route::resource('coursetypes', 'CourseTypeController');
 
 Route::resource('coursedates', 'CourseDateController');
+
+// Controller Hubbers
+
+Route::resource('hubbers', 'HubberController');
